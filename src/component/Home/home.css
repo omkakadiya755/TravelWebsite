@@ -1,0 +1,23 @@
+ .hh{
+    color: lightskyblue;
+    text-align: center;
+    text-shadow: 3px 3px 3px blueviolet;
+    font-size: 50px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin-left: 42%;
+    margin-right: 42%;
+    box-shadow: 3px 3px 3px ;
+    font-family: serif;
+}
+
+.a{
+    border-radius: 15px;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 50px;
+    border-color: rgb(70, 48, 18);
+    border-style: solid;
+    width:  300px;
+    height: 200px;
+}

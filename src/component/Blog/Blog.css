@@ -1,0 +1,35 @@
+.App {
+    text-align: center;
+  }
+  
+  .ah{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 41%;
+    margin-right: 41%;
+  }
+  
+  .bmain {
+    padding: 20px;
+  }
+  
+  .blog-post {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .post-date {
+    color: #666;
+  }
+  
+  .App-footer {
+    background-color:#333;
+    color: white;
+    padding: 10px;
+}

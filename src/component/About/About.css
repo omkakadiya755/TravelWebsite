@@ -1,0 +1,83 @@
+.about-h{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 42%;
+    margin-right: 42%;
+
+}
+  
+main {
+    padding: 2em;
+}
+  
+.about, .story, .team {
+    margin-bottom: 3em;
+}
+  
+.about h2, .story h2, .team h2 {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+  
+.about p, .story p {
+    color: #666;
+}
+  
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+  
+.team-member img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
+    border: 4px solid #333;
+}
+  
+.team-member h3 {
+    color: #333;
+    margin: 0.5em 0;
+}
+  
+.team-member p {
+    color: #666;
+    margin: 0;
+}
+  
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+  
+  /* Additional Styling */
+.about {
+    background-color: #f9f9f9;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+  
+.story {
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+  
+.team {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.footer p {
+    font-size: 14px;
+}
