@@ -62,6 +62,7 @@ ul li a:hover {
         flex-direction: column;
     }
 }
+
 .social-icons {
     display: flex;
     gap: 10px;
@@ -76,6 +77,7 @@ ul li a:hover {
 .social-icons a:hover {
     color: #ff6600;
 }
+
 /* Add this to your existing CSS */
 .footer-container {
     padding-top: 20px;
@@ -94,6 +96,7 @@ ul li a:hover {
 .footer-right {
     margin-bottom: 20px;
 }
+
 /* Add this to your existing CSS */
 /* Add this to your existing CSS */
 /* Add some spacing above the footer to separate it from the content */
@@ -104,10 +107,13 @@ main {
 /* Style the footer for separation */
 footer {
     background-color: #f5f5f5;
-    padding: 40px 0; /* Increase padding for more separation */
+    padding: 40px 0;
+    /* Increase padding for more separation */
     text-align: center;
-    border-top: 1px solid #ddd; /* Add a top border to visually separate the footer */
-    margin-top: 40px; /* Add margin to create vertical separation from the content above */
+    border-top: 1px solid #ddd;
+    /* Add a top border to visually separate the footer */
+    margin-top: 40px;
+    /* Add margin to create vertical separation from the content above */
 }
 
 .footer-container {
@@ -116,7 +122,7 @@ footer {
 }
 
 /* Add spacing between sections within the footer */
-.footer-container > div {
+.footer-container>div {
     margin-bottom: 20px;
 }
 
@@ -137,10 +143,12 @@ footer {
 .social-icons a:hover {
     color: #ff6600;
 }
-.Main{
+
+.Main {
     background-color: #333;
-    color: #fff; /* Light text color on dark background */
-    padding: 40px 0; /* Increase padding for more separation */
+    color: #fff;
+    /* Light text color on dark background */
+    padding: 40px 0;
+    /* Increase padding for more separation */
     text-align: center;
-    margin-top: 40px; /* Add margin to create vertical separation from the content above */
 }

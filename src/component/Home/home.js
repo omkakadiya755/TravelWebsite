@@ -28,7 +28,7 @@ function Home() {
     return (
 
         <>
-            <div className={`app ${themeColor} d-flex`}>
+            <div className={`app ${themeColor} d-flex pb-5`}>
                 <div className="NaVbar">
                     <Link to="/home" className='l'> <i class="bi bi-house-door-fill cursor-pointer" /> </Link><br />
 
