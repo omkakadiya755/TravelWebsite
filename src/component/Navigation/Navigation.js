@@ -12,20 +12,20 @@ function Navigation() {
   return (
     <div>
 
-        <BrowserRouter>
-          
-          <Header />
-          <Routes>
-              <Route path='/' element={<Outlet />} />
-              <Route index element={<Home/>} />
-              <Route path='/home' element={<Home />} /> 
-              <Route path='/about' element={<About />} />
-              <Route path='/Blog' element={<Blog />} />
+      <BrowserRouter>
 
-          </Routes>
-        </BrowserRouter>
+        {/* <Header /> */}
+        <Routes>
+          <Route path='/' element={<Outlet />} />
+          <Route index element={<Home />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/Blog' element={<Blog />} />
 
-        
+        </Routes>
+      </BrowserRouter>
+
+
 
     </div>
   )

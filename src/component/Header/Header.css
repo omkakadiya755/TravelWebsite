@@ -1,21 +1,25 @@
 .app {
   transition: background-color 0.3s;
 }
+
 .white {
   background-color: white;
   border: 0px;
 }
+
 .black {
   background-color: #2d3943;
   border: 0px;
 }
-.cursor-pointer{
+
+.cursor-pointer {
   cursor: pointer;
   font-size: 50px;
-  margin-left: 10px ;
-  margin-right: 50px;
+  /* margin-left: 10px ;
+  margin-right: 50px; */
 }
-.l{
+
+.l {
   text-decoration: none;
 }
 
